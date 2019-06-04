@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+body{
+    height:100%;
+    width:100%;
+    background:cornsilk;
+}
+
+section{
+    height:760px;
+    width:830px;
+    background: #fff;
+    margin:20px auto;
+    position: relative;
+}
+section header{
+    height:50px;
+    width:100%;
+    background: pink;
+}
+.content{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.content p{
+    min-height:20px;
+    max-width: 60%;
+    font-size:16px;
+    line-height:20px;
+    padding:3px;
+    background: #ddd;
+    border-radius:10px;
+    margin:10px;
+}
+.send{
+    position: absolute;
+    bottom: 0;
+    height:180px;
+    width:100%;
+    border-top: 1px solid #ddd;
+}
+.send textarea{
+    display: block;
+    height:130px;
+    width:98%;
+    resize: none;
+    margin:0 auto;
+    border:0;
+}
+.send .btn{
+    display: block;
+    height:30px;
+    width:50px;
+    background:#ddd;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    bottom:10px;
+    right:20px;
+    cursor: pointer;
+}

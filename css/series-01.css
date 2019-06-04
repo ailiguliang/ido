@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+body{
+    font-family: "Times New Roman", 宋体;
+}
+.imgShow{
+    margin-top:58px;
+    position: relative;
+    margin-bottom: 20px;
+    /* height:730px; */
+}
+.imgShow img{
+    width:100%;
+    height:711.5px;
+}
+.imgShow .showTxt{
+    height:10%;
+    width:45%;
+    position: absolute;
+    bottom:70%;
+    left:80%;
+    margin:0 -25%;
+    text-align: center;
+    margin-bottom: -15%;
+}
+.showTxt h2{
+    font-size:36px;
+    color:rgb(83, 86, 90);
+    font-family: '宋体';
+    margin-bottom:20px;
+}
+.showTxt h3{
+    font-size:14px;
+    color:rgb(83, 86, 90);
+    font-family: '宋体';
+    margin-bottom:20px;
+}
+
+/* article */
+#txt{
+    display: flex;
+    justify-content: center;
+    margin-bottom:41px;
+}
+.txtBox{
+    height:140px;
+    width:776px;
+    text-align: center;
+    color:rgb(83, 86, 90);
+    font-family: "Times New Roman", 宋体;
+}
+.txtBox h2{
+    font-size: 36px;
+    font-family: '宋体';
+    line-height:24px;
+    margin:26px 0 20px 0;
+}
+.txtBox p{
+    font-size:16px;
+    line-height:26px;
+    color: rgb(139, 128, 117);
+}
+
+#ringBox{
+    height:653px;
+    text-align: center;
+    font-family: "Times New Roman", 宋体;
+}
+#ringBox img{
+    display: block;
+    height:580px;
+    width:580px;
+    margin:0 auto;
+}
+#ringBox h2{
+    font-size:24px;
+    margin-bottom:14px;
+    color:#8b8075;
+    font-weight: 100;
+}
+#ringBox p{
+    font-size:16px;
+    color:#8b8075;
+    line-height: 27px;
+}
+
+#ringShow{
+    height:615px;
+}
+#ringShow div{
+    width:33.333%;
+    text-align: center;
+    float: left;
+}
+#ringShow div a img{
+    width:475px;
+    height:475px;
+}
+#ringShow div h2{
+    color: #8b8075;
+    font-size: 24px;
+    margin-top:20px;
+    line-height:24px;
+}
+#ringShow div p{
+    width:80%;
+    margin:24px auto 10px;
+    color: #8b8075;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+/* book */
+#book{
+    height:356px;
+    position: relative;
+}
+#book img{
+    height:100%;
+    
+}
+.shidai{
+    font-family: "Times New Roman", 宋体;
+    position: absolute;
+    color: rgb(83, 86, 90);
+    top: 28%;
+    width: 40%;
+    left: 10%;
+    height: 30%;
+    margin-top: 0%;
+}
+.shidai p{
+    font-family: "Times New Roman", 宋体;
+}
+.shidai p:nth-child(1){
+    font-weight: 800;
+    text-align: center;
+    font-size: 46px;
+}
+.shidai p:nth-child(2){
+    text-align: center;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.shidai a{
+    display: block;
+    text-decoration: none;
+    color: #53565A;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #53565A;
+    line-height: 30px;
+    margin: 4% auto 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
